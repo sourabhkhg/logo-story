@@ -1,3 +1,6 @@
+html {
+  background: #fafafa;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +8,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #ffffff;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#root {
+  width: 100%;
+  height: 100%;
 }
